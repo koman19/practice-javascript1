@@ -1,64 +1,29 @@
+function errorInput(){
 
-function changeColor(){
+console.log(document.getElementById("month").value)
 
-
-document.getElementById("text").style.color = "red";
-
-
-}
-
-
-
-//document.getElementById("text").style.color = "red";
-/*これは、ドキュメントの中の「text」というIDを待っている
-タグのスタイルの色を赤にしてください。*/
-
-//document.querySelector("h1").style.color = "red"
-
-
-let count = 1;
-
-function increaseCount(){
+console.log(document.getElementById("day").value)
 
 
 
 
-count=count*2;
+const month = document.getElementById("month").value
 
-document.getElementById("counter").innerText = count;
+const day = document.getElementById("day").value
+
+
+
+console.log("month:",month,"day:",day)
+
+
+
+
+
+
+
 
 
 
 }
-
-
-
-
-function herasuCount(){
-
-
-
-
-count=count/2;
-
-document.getElementById("counter").innerText = count;
-
-
-}
-
-
-
-
-function aiuCount(){
-
-
-
-
-    count=count+1;
-    
-    document.getElementById("counter").innerText = count;
-    
-    
-    }
 
 
